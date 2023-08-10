@@ -10,6 +10,7 @@
         "**/*.uf2": true
     },
     "files.associations": {
+        "*.module": "php",
         "*.h": "c",
         "*.c": "c",
         "*.inc": "c",
@@ -18,7 +19,9 @@
         "xstddef": "c",
         "type_traits": "c",
         "utility": "c",
-        "ranges": "c"
+        "ranges": "c",
+        "__locale": "c",
+        "random": "c"
     },
     "[markdown]": {
         "editor.trimAutoWhitespace": false,

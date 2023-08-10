@@ -1397,7 +1397,7 @@ enum qk_keycode_defines {
 
 // Group Helpers
 #define IS_INTERNAL_KEYCODE(code) ((code) >= KC_NO && (code) <= KC_TRANSPARENT)
-#define IS_BASIC_KEYCODE(code) ((code) >= KC_A && (code) <= KC_EXSEL)
+#define IS_BASIC_KEYCODE(code) ((code) >= KC_A && (code) <= KC_EXSEL) || ((code) >= QK_USER_0 && (code) <= QK_USER_31)
 #define IS_SYSTEM_KEYCODE(code) ((code) >= KC_SYSTEM_POWER && (code) <= KC_SYSTEM_WAKE)
 #define IS_CONSUMER_KEYCODE(code) ((code) >= KC_AUDIO_MUTE && (code) <= KC_LAUNCHPAD)
 #define IS_MOUSE_KEYCODE(code) ((code) >= KC_MS_UP && (code) <= KC_MS_ACCEL2)

@@ -15,8 +15,8 @@
         "audio": false
     },
     "matrix_pins": {
-        "cols": ["GP21", "GP20", "GP19", "GP18", "GP17", "GP16"],
-        "rows": ["GP12", "GP13", "GP14", "GP15"]
+        "cols": ["GP2", "GP4", "GP3", "GP2", "GP4", "GP3"],
+        "rows": ["GP26", "GP27", "GP28", "GP29"]
     },
     "processor": "RP2040",
     "usb": {
@@ -25,11 +25,11 @@
         "vid": "0x5954"
     },
     "rgblight": {
-        "led_count": 12,
-        "pin": "GP6",
+        "led_count": 2,
+        "pin": "GP12",
         "sleep": true,
         "split": true,
-        "split_count": [6, 6],
+        "split_count": [1, 1],
         "animations": {
             "alternating": true,
             "breathing": true,
@@ -96,10 +96,13 @@
                 {"label":"L31", "x":4, "y":3.75},
                 {"label":"L32", "x":5, "y":3.75},
                 {"label":"L33", "x":6, "y":4},
+                {"label":"L34", "x":9.75, "y":3.75},
                 {"label":"R30", "x":7.75, "y":4},
                 {"label":"R31", "x":8.75, "y":3.75},
                 {"label":"R32", "x":9.75, "y":3.75},
-                {"label":"R33", "x":10.75, "y":4}]
+                {"label":"R33", "x":10.75, "y":4},
+                {"label":"R34", "x":9.75, "y":3.75}
+            ]
         }
     }
 }

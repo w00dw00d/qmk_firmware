@@ -43,3 +43,7 @@
 
 /* VIA related config */
 #define VIA_EEPROM_LAYOUT_OPTIONS_SIZE 2
+
+#define AUTO_SHIFT_TIMEOUT 180
+#define AUTO_SHIFT_TIMEOUT_PER_KEY
+// #define NO_AUTO_SHIFT_ALPHA

@@ -32,6 +32,7 @@
              KC_TAB:                \
         case KC_MINUS ... KC_SLASH: \
         case KC_NONUS_BACKSLASH
+#define AUTO_SHIFT_USER QK_USER_0 ... QK_USER_31
 // clang-format on
 
 bool process_auto_shift(uint16_t keycode, keyrecord_t *record);

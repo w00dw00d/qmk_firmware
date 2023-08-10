@@ -14,10 +14,8 @@
 //#define SERIAL_DEBUG
 
 #define WS2812_PIO_USE_PIO1
-
-#define RGBLIGHT_LED_MAP { 0, 1, 2, 3, 4, 5, \
-                           11, 10, 9, 8, 7, 6 }
-
+#define DUPLEX_MATRIX
+#define RGBLIGHT_LED_MAP { 0,1 }
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
@@ -33,3 +31,7 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
+
+#define AUTO_SHIFT_TIMEOUT 200
+
+#define NO_AUTO_SHIFT_ALPHA
