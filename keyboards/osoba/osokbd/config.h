@@ -13,6 +13,7 @@
 
 //#define SERIAL_DEBUG
 
+#define WS2812_DI_PIN GP28
 #define WS2812_PIO_USE_PIO1
 #define DUPLEX_MATRIX
 #define RGBLIGHT_LED_MAP { 0,1,2,3,4,5,6,7 }
